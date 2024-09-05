@@ -2,7 +2,11 @@ h1 {color: green;
    font-size: 80px;
    text-align: center;
   }
-body {background-image: url('./Imagen_fondo.png');
-     background-repeat: no-repeat; /*Para que no se repita*/
-      background-size: cover; /**/
-     }
+body {
+    margin: 0; /* Elimina márgenes por defecto */
+    height: 100vh; /* Asegura que el cuerpo ocupe toda la altura de la ventana */
+    background-image: url('ruta/a/tu/imagen.jpg'); /* Ruta a tu imagen */
+    background-size: contain; /* Ajusta la imagen para que quepa completamente */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
