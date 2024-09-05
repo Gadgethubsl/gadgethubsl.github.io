@@ -3,6 +3,6 @@ h1 {color: green;
    text-align: center;
   }
 body {background-image: url('./Imagen_fondo.png');
-     background-repeat: no-repeat;
-      background-size: cover;
+     background-repeat: no-repeat; /*Para que no se repita*/
+      background-size: cover; /**/
      }
