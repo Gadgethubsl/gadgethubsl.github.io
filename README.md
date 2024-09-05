@@ -11,9 +11,7 @@
 </head>
 
 <body>
-
-  <!-- Add your site or application content here -->
-  <p>Hello world!</p>
+  <h1>GadgetHub</h1>
 
 </body>
 
