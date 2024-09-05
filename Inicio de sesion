@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión GitHub</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .login-container { 
+            max-width: 300px; 
+            margin: 50px auto; 
+            padding: 20px; 
+            border: 1px solid #ddd; 
+            border-radius: 5px; 
+        }
+        input { 
+            width: 100%; 
+            padding: 10px; 
+            margin: 10px 0; 
+            box-sizing: border-box; 
+        }
+        button { 
+            width: 100%; 
+            padding: 10px; 
+            background-color: #2ea44f; 
+            color: white; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Iniciar Sesión en GitHub</h2>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Nombre de usuario" required>
+            <input type="password" id="password" placeholder="Contraseña" required>
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+    </div>
 
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+            
+            // Aquí normalmente enviarías estos datos a un servidor para autenticación
+            // Por ahora, solo mostraremos un mensaje de alerta
+            alert('Intento de inicio de sesión con:\nUsuario: ' + username + '\nContraseña: ' + password);
+            
+            // Redirección a GitHub (esto es solo un ejemplo)
+            window.location.href = 'https://github.com';
+        });
+    </script>
+</body>
+</html>
