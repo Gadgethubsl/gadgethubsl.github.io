@@ -1,4 +1,3 @@
 # gadgethubsl.github.io
 
-
-  <h1>GadgetHub</h1>
+<h1>GadgetHub</h1>
