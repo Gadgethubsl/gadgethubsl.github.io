@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "name": "Gigabyte GeForce RTX 4070 GAMING OC V2 12GB GDDR6X DLSS3",
+    "description": "Características
+Powered by NVIDIA DLSS 3, ultra-efficient Ada Lovelace arch, and full ray tracing
+4th Generation Tensor Cores: Up to 4x performance with DLSS 3 vs. brute-force rendering
+3rd Generation RT Cores: Up to 2X ray tracing performance
+Powered by GeForce RTX™ 4070
+Integrated with 12GB GDDR6X 192bit memory interface
+WINDFORCE cooling system
+RGB Fusion
+Dual BIOS
+Protection metal back plate
+Especificaciones Gigabyte GeForce RTX 4070 GAMING OC V2
+Motor gráfico: GeForce RTX™ 4070
+Core Clock: 2565 MHz (Reference Card: 2475 MHz)
+CUDA® Cores: 5888
+Memory Clock: 21 Gbps
+Memoria: 12 GB
+Tipo de memoria: GDDR6X
+Memory Bus: 192 bit
+Card Bus: PCI-E 4.0
+Resolución máxima: 7680x4320
+Multi-view: 4
+Dimensiones: 300x130x50.2 mm
+PCB Form: ATX
+DirectX: 12 Ultimate
+OpenGL: 4.6
+Alimentación mínima: 650W
+Power Connectors: 8 pin*1
+Salidas
+DisplayPort 1.4a *3
+HDMI 2.1a *1
+Fecha de lanzamiento: 18/11/2023",
+    "price": 600,99,
+    "image": "imagen1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Corsair Vengeance LPX DDR4 3200MHz PC4-25600 32GB 2x16GB CL16",
+    "description": "Características
+Latencia CAS: 16
+Memoria interna: 32 GB
+Diseño de memoria (módulos x tamaño): 2 x 16 GB
+Tipo de memoria interna: DDR4
+Velocidad de memoria del reloj: 3200 MHz
+Componente para: PC/servidor
+Forma de factor de memoria: 288-pin DIMM
+Tipo de enfriamiento: Disipador térmico
+Fecha de lanzamiento: 15/05/2019",
+    "price": 74,99,
+    "image": "imagen2.jpg"
+  }
+]
